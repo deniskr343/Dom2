@@ -1,9 +1,9 @@
 import turtle
 
 mainTurtle = turtle.Turtle()
-def danik(20,20):
+def danik(x,y):
     mainTurtle.penup()
-    mainTurtle.goto(20,20)
+    mainTurtle.goto(x,y)
     mainTurtle.pendown()
     mainTurtle.fillcolor('yellow')
     mainTurtle.begin_fill()
