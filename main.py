@@ -16,6 +16,6 @@ def Dima(x,y):
     mainTurtle.forward(213)
     mainTurtle.fillcolor("green")
     mainTurtle.end_fill()
-Dima(-200,200)
+#Dima(-200,200)
 mainTurtle.hideturtle()
 turtle.exitonclick()
