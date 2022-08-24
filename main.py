@@ -1,6 +1,9 @@
 import turtle
 mainTurtle = turtle.Turtle()
+<<<<<<< HEAD
 #Синтаксическая ошибка
+=======
+>>>>>>> 2109c70aa4f636da49ba74f52ff0681f554a44ec
 def olya(x,y):
     mainTurtle.penup()
     mainTurtle.goto(x,y)
