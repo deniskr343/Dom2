@@ -1,8 +1,16 @@
 import turtle
 
 mainTurtle = turtle.Turtle()
-
-
-
-mainTurtle.hideturtle()
-turtle.exitonclick()
+def Artem(x,y):
+    mainTurtle.penup()
+    mainTurtle.pencolor('green')
+    mainTurtle.goto(x,y)
+    mainTurtle.pendown()
+    mainTurtle.forward(100)
+    mainTurtle.left(120)
+    mainTurtle.forward(100)
+    mainTurtle.left(120)
+    mainTurtle.forward(100)
+    mainTurtle.hideturtle()
+    turtle.exitonclick()
+Artem(x=-50, y=-0)
