@@ -1,7 +1,7 @@
 import turtle
 
 mainTurtle = turtle.Turtle()
-def danik(x,y):
+def danik(20,20):
     mainTurtle.penup()
     mainTurtle.goto(20,20)
     mainTurtle.pendown()
