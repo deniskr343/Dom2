@@ -1,6 +1,6 @@
 import turtle
+mainTurtle = turtle.Turtle()
 def olya(x,y)
-    mainTurtle = turtle.Turtle()
     mainTurtle.penup()
     mainTurtle.goto(x,y)
     mainTurtle.pendown()
