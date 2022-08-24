@@ -1,8 +1,24 @@
 import turtle
-
-mainTurtle = turtle.Turtle()
-
-
-
-mainTurtle.hideturtle()
+main = turtle.Turtle()
+main.hideturtle()
+def Dima():
+    main.penup()
+    main.goto(-200,200)
+    main.pendown()
+    main.begin_fill()
+    main.forward(300)
+    main.right(45)
+    main.forward(150)
+    main.right(90)
+    main.forward(150)
+    main.right(45)
+    main.forward(300)
+    main.right(90)
+    main.forward(213)
+    main.fillcolor("green")
+    main.end_fill()
+Dima()
+turtle.exitonclick()
+main = turtle.Turtle()
+main.hideturtle()
 turtle.exitonclick()
