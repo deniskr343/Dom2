@@ -19,6 +19,3 @@ def Dima():
     main.end_fill()
 Dima()
 turtle.exitonclick()
-main = turtle.Turtle()
-main.hideturtle()
-turtle.exitonclick()
