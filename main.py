@@ -11,6 +11,6 @@ def Artem(x,y):
     mainTurtle.forward(100)
     mainTurtle.left(120)
     mainTurtle.forward(100)
-    mainTurtle.hideturtle()
-    turtle.exitonclick()
 Artem(x=-50, y=-0)
+mainTurtle.hideturtle()
+turtle.exitonclick()
